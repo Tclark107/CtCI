@@ -1,5 +1,5 @@
-SOURCE = greenBookListDriver.cpp ListProblems.cpp
-HEADERS = ListProblems.h
+SOURCE = greenBookListDriver.cpp  ../common/src/List.cpp
+HEADERS = ../common/include/List.h
 
 ListTest: 
 	g++ -o greenBookListDriver -g $(SOURCE) $(HEADERS)
