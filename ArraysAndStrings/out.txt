@@ -1,0 +1,964 @@
+str = fa37
+stri =  f
+stri =  a
+stri =  3
+stri =  7
+3 3 
+7 7 
+a a 
+f f 
+she unique
+str = JncC
+stri =  J
+stri =  n
+stri =  c
+stri =  C
+C C 
+J J 
+c c 
+n n 
+she unique
+str = HryD
+stri =  H
+stri =  r
+stri =  y
+stri =  D
+D D 
+H H 
+r r 
+y y 
+she unique
+str = sbza
+stri =  s
+stri =  b
+stri =  z
+stri =  a
+a a 
+b b 
+s s 
+z z 
+she unique
+str = yy4c
+stri =  y
+stri =  y
+she aint unique y
+str = BWDx
+stri =  B
+stri =  W
+stri =  D
+stri =  x
+B B 
+D D 
+W W 
+x x 
+she unique
+str = S22J
+stri =  S
+stri =  2
+stri =  2
+she aint unique 2
+str = jzhM
+stri =  j
+stri =  z
+stri =  h
+stri =  M
+M M 
+h h 
+j j 
+z z 
+she unique
+str = aiRr
+stri =  a
+stri =  i
+stri =  R
+stri =  r
+R R 
+a a 
+i i 
+r r 
+she unique
+str = V41m
+stri =  V
+stri =  4
+stri =  1
+stri =  m
+1 1 
+4 4 
+V V 
+m m 
+she unique
+str = tzxl
+stri =  t
+stri =  z
+stri =  x
+stri =  l
+l l 
+t t 
+x x 
+z z 
+she unique
+str = YvKW
+stri =  Y
+stri =  v
+stri =  K
+stri =  W
+K K 
+W W 
+Y Y 
+v v 
+she unique
+str = rO72
+stri =  r
+stri =  O
+stri =  7
+stri =  2
+2 2 
+7 7 
+O O 
+r r 
+she unique
+str = tK0L
+stri =  t
+stri =  K
+stri =  0
+stri =  L
+0 0 
+K K 
+L L 
+t t 
+she unique
+str = K0e1
+stri =  K
+stri =  0
+stri =  e
+stri =  1
+0 0 
+1 1 
+K K 
+e e 
+she unique
+str = zLOZ
+stri =  z
+stri =  L
+stri =  O
+stri =  Z
+L L 
+O O 
+Z Z 
+z z 
+she unique
+str = 2nOX
+stri =  2
+stri =  n
+stri =  O
+stri =  X
+2 2 
+O O 
+X X 
+n n 
+she unique
+str = pPIh
+stri =  p
+stri =  P
+stri =  I
+stri =  h
+I I 
+P P 
+h h 
+p p 
+she unique
+str = MFSv
+stri =  M
+stri =  F
+stri =  S
+stri =  v
+F F 
+M M 
+S S 
+v v 
+she unique
+str = 8kP0
+stri =  8
+stri =  k
+stri =  P
+stri =  0
+0 0 
+8 8 
+P P 
+k k 
+she unique
+str = 7U20
+stri =  7
+stri =  U
+stri =  2
+stri =  0
+0 0 
+2 2 
+7 7 
+U U 
+she unique
+str = o0J9
+stri =  o
+stri =  0
+stri =  J
+stri =  9
+0 0 
+9 9 
+J J 
+o o 
+she unique
+str = 0xA0
+stri =  0
+stri =  x
+stri =  A
+stri =  0
+she aint unique 0
+str = GWXI
+stri =  G
+stri =  W
+stri =  X
+stri =  I
+G G 
+I I 
+W W 
+X X 
+she unique
+str = Iwo7
+stri =  I
+stri =  w
+stri =  o
+stri =  7
+7 7 
+I I 
+o o 
+w w 
+she unique
+str = J4og
+stri =  J
+stri =  4
+stri =  o
+stri =  g
+4 4 
+J J 
+g g 
+o o 
+she unique
+str = HFZQ
+stri =  H
+stri =  F
+stri =  Z
+stri =  Q
+F F 
+H H 
+Q Q 
+Z Z 
+she unique
+str = xwQ2
+stri =  x
+stri =  w
+stri =  Q
+stri =  2
+2 2 
+Q Q 
+w w 
+x x 
+she unique
+str = RQ0D
+stri =  R
+stri =  Q
+stri =  0
+stri =  D
+0 0 
+D D 
+Q Q 
+R R 
+she unique
+str = RJKR
+stri =  R
+stri =  J
+stri =  K
+stri =  R
+she aint unique R
+str = ETPV
+stri =  E
+stri =  T
+stri =  P
+stri =  V
+E E 
+P P 
+T T 
+V V 
+she unique
+str = zxlF
+stri =  z
+stri =  x
+stri =  l
+stri =  F
+F F 
+l l 
+x x 
+z z 
+she unique
+str = rXL8
+stri =  r
+stri =  X
+stri =  L
+stri =  8
+8 8 
+L L 
+X X 
+r r 
+she unique
+str = b7mt
+stri =  b
+stri =  7
+stri =  m
+stri =  t
+7 7 
+b b 
+m m 
+t t 
+she unique
+str = KLHI
+stri =  K
+stri =  L
+stri =  H
+stri =  I
+H H 
+I I 
+K K 
+L L 
+she unique
+str = GhIh
+stri =  G
+stri =  h
+stri =  I
+stri =  h
+she aint unique h
+str = 5JuW
+stri =  5
+stri =  J
+stri =  u
+stri =  W
+5 5 
+J J 
+W W 
+u u 
+she unique
+str = cFwr
+stri =  c
+stri =  F
+stri =  w
+stri =  r
+F F 
+c c 
+r r 
+w w 
+she unique
+str = gJKd
+stri =  g
+stri =  J
+stri =  K
+stri =  d
+J J 
+K K 
+d d 
+g g 
+she unique
+str = E3t5
+stri =  E
+stri =  3
+stri =  t
+stri =  5
+3 3 
+5 5 
+E E 
+t t 
+she unique
+str = bECA
+stri =  b
+stri =  E
+stri =  C
+stri =  A
+A A 
+C C 
+E E 
+b b 
+she unique
+str = Ly3e
+stri =  L
+stri =  y
+stri =  3
+stri =  e
+3 3 
+L L 
+e e 
+y y 
+she unique
+str = KIwY
+stri =  K
+stri =  I
+stri =  w
+stri =  Y
+I I 
+K K 
+Y Y 
+w w 
+she unique
+str = xEF3
+stri =  x
+stri =  E
+stri =  F
+stri =  3
+3 3 
+E E 
+F F 
+x x 
+she unique
+str = V7Z8
+stri =  V
+stri =  7
+stri =  Z
+stri =  8
+7 7 
+8 8 
+V V 
+Z Z 
+she unique
+str = KTx0
+stri =  K
+stri =  T
+stri =  x
+stri =  0
+0 0 
+K K 
+T T 
+x x 
+she unique
+str = nFe1
+stri =  n
+stri =  F
+stri =  e
+stri =  1
+1 1 
+F F 
+e e 
+n n 
+she unique
+str = IX5t
+stri =  I
+stri =  X
+stri =  5
+stri =  t
+5 5 
+I I 
+X X 
+t t 
+she unique
+str = jH22
+stri =  j
+stri =  H
+stri =  2
+stri =  2
+she aint unique 2
+str = F5gX
+stri =  F
+stri =  5
+stri =  g
+stri =  X
+5 5 
+F F 
+X X 
+g g 
+she unique
+str = Oa5L
+stri =  O
+stri =  a
+stri =  5
+stri =  L
+5 5 
+L L 
+O O 
+a a 
+she unique
+str = nIMI
+stri =  n
+stri =  I
+stri =  M
+stri =  I
+she aint unique I
+str = QuOi
+stri =  Q
+stri =  u
+stri =  O
+stri =  i
+O O 
+Q Q 
+i i 
+u u 
+she unique
+str = NJj8
+stri =  N
+stri =  J
+stri =  j
+stri =  8
+8 8 
+J J 
+N N 
+j j 
+she unique
+str = YL8r
+stri =  Y
+stri =  L
+stri =  8
+stri =  r
+8 8 
+L L 
+Y Y 
+r r 
+she unique
+str = qDiZ
+stri =  q
+stri =  D
+stri =  i
+stri =  Z
+D D 
+Z Z 
+i i 
+q q 
+she unique
+str = SkZf
+stri =  S
+stri =  k
+stri =  Z
+stri =  f
+S S 
+Z Z 
+f f 
+k k 
+she unique
+str = oEDA
+stri =  o
+stri =  E
+stri =  D
+stri =  A
+A A 
+D D 
+E E 
+o o 
+she unique
+str = mGTX
+stri =  m
+stri =  G
+stri =  T
+stri =  X
+G G 
+T T 
+X X 
+m m 
+she unique
+str = Xqqv
+stri =  X
+stri =  q
+stri =  q
+she aint unique q
+str = kCd5
+stri =  k
+stri =  C
+stri =  d
+stri =  5
+5 5 
+C C 
+d d 
+k k 
+she unique
+str = WKE2
+stri =  W
+stri =  K
+stri =  E
+stri =  2
+2 2 
+E E 
+K K 
+W W 
+she unique
+str = fMtV
+stri =  f
+stri =  M
+stri =  t
+stri =  V
+M M 
+V V 
+f f 
+t t 
+she unique
+str = Xa2z
+stri =  X
+stri =  a
+stri =  2
+stri =  z
+2 2 
+X X 
+a a 
+z z 
+she unique
+str = Kae6
+stri =  K
+stri =  a
+stri =  e
+stri =  6
+6 6 
+K K 
+a a 
+e e 
+she unique
+str = opGY
+stri =  o
+stri =  p
+stri =  G
+stri =  Y
+G G 
+Y Y 
+o o 
+p p 
+she unique
+str = 4i6b
+stri =  4
+stri =  i
+stri =  6
+stri =  b
+4 4 
+6 6 
+b b 
+i i 
+she unique
+str = YuUG
+stri =  Y
+stri =  u
+stri =  U
+stri =  G
+G G 
+U U 
+Y Y 
+u u 
+she unique
+str = 67La
+stri =  6
+stri =  7
+stri =  L
+stri =  a
+6 6 
+7 7 
+L L 
+a a 
+she unique
+str = SXd5
+stri =  S
+stri =  X
+stri =  d
+stri =  5
+5 5 
+S S 
+X X 
+d d 
+she unique
+str = tUbO
+stri =  t
+stri =  U
+stri =  b
+stri =  O
+O O 
+U U 
+b b 
+t t 
+she unique
+str = 4bNP
+stri =  4
+stri =  b
+stri =  N
+stri =  P
+4 4 
+N N 
+P P 
+b b 
+she unique
+str = B0Tx
+stri =  B
+stri =  0
+stri =  T
+stri =  x
+0 0 
+B B 
+T T 
+x x 
+she unique
+str = nkWr
+stri =  n
+stri =  k
+stri =  W
+stri =  r
+W W 
+k k 
+n n 
+r r 
+she unique
+str = SaQy
+stri =  S
+stri =  a
+stri =  Q
+stri =  y
+Q Q 
+S S 
+a a 
+y y 
+she unique
+str = UuEa
+stri =  U
+stri =  u
+stri =  E
+stri =  a
+E E 
+U U 
+a a 
+u u 
+she unique
+str = 0X9Q
+stri =  0
+stri =  X
+stri =  9
+stri =  Q
+0 0 
+9 9 
+Q Q 
+X X 
+she unique
+str = 5mVw
+stri =  5
+stri =  m
+stri =  V
+stri =  w
+5 5 
+V V 
+m m 
+w w 
+she unique
+str = G4JL
+stri =  G
+stri =  4
+stri =  J
+stri =  L
+4 4 
+G G 
+J J 
+L L 
+she unique
+str = geip
+stri =  g
+stri =  e
+stri =  i
+stri =  p
+e e 
+g g 
+i i 
+p p 
+she unique
+str = eBlQ
+stri =  e
+stri =  B
+stri =  l
+stri =  Q
+B B 
+Q Q 
+e e 
+l l 
+she unique
+str = tFFJ
+stri =  t
+stri =  F
+stri =  F
+she aint unique F
+str = pgHJ
+stri =  p
+stri =  g
+stri =  H
+stri =  J
+H H 
+J J 
+g g 
+p p 
+she unique
+str = YTrW
+stri =  Y
+stri =  T
+stri =  r
+stri =  W
+T T 
+W W 
+Y Y 
+r r 
+she unique
+str = z0w2
+stri =  z
+stri =  0
+stri =  w
+stri =  2
+0 0 
+2 2 
+w w 
+z z 
+she unique
+str = kQw1
+stri =  k
+stri =  Q
+stri =  w
+stri =  1
+1 1 
+Q Q 
+k k 
+w w 
+she unique
+str = UFK8
+stri =  U
+stri =  F
+stri =  K
+stri =  8
+8 8 
+F F 
+K K 
+U U 
+she unique
+str = u2yW
+stri =  u
+stri =  2
+stri =  y
+stri =  W
+2 2 
+W W 
+u u 
+y y 
+she unique
+str = Bjw3
+stri =  B
+stri =  j
+stri =  w
+stri =  3
+3 3 
+B B 
+j j 
+w w 
+she unique
+str = yCMl
+stri =  y
+stri =  C
+stri =  M
+stri =  l
+C C 
+M M 
+l l 
+y y 
+she unique
+str = qc4M
+stri =  q
+stri =  c
+stri =  4
+stri =  M
+4 4 
+M M 
+c c 
+q q 
+she unique
+str = 3tt2
+stri =  3
+stri =  t
+stri =  t
+she aint unique t
+str = un4c
+stri =  u
+stri =  n
+stri =  4
+stri =  c
+4 4 
+c c 
+n n 
+u u 
+she unique
+str = Dzdi
+stri =  D
+stri =  z
+stri =  d
+stri =  i
+D D 
+d d 
+i i 
+z z 
+she unique
+str = Evq8
+stri =  E
+stri =  v
+stri =  q
+stri =  8
+8 8 
+E E 
+q q 
+v v 
+she unique
+str = vmf7
+stri =  v
+stri =  m
+stri =  f
+stri =  7
+7 7 
+f f 
+m m 
+v v 
+she unique
+str = TZAP
+stri =  T
+stri =  Z
+stri =  A
+stri =  P
+A A 
+P P 
+T T 
+Z Z 
+she unique
+str = jUAZ
+stri =  j
+stri =  U
+stri =  A
+stri =  Z
+A A 
+U U 
+Z Z 
+j j 
+she unique
+str = 6Cu8
+stri =  6
+stri =  C
+stri =  u
+stri =  8
+6 6 
+8 8 
+C C 
+u u 
+she unique
+str = 6nAy
+stri =  6
+stri =  n
+stri =  A
+stri =  y
+6 6 
+A A 
+n n 
+y y 
+she unique
+str = YDam
+stri =  Y
+stri =  D
+stri =  a
+stri =  m
+D D 
+Y Y 
+a a 
+m m 
+she unique
