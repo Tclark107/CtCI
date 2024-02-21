@@ -5,5 +5,4 @@ ListTest:
 	g++ -o ListTestDriver -g $(SOURCE) $(HEADERS)
 
 clean:
-	-rm -f ListTest.o
-	-rm -f ListTest
+	-rm -f ListTestDriver

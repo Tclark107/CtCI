@@ -25,13 +25,16 @@ class List
 
         void prepend(int new_data);
         void append(int new_data);
-        void peek();
+        int peek();
 
         // returns -1 if the list is empty
         int removeHead();         
         int removeEnd();
         int removeElement(int index);
         void clear();
+
+        void moveCursorFront();
+        bool moveCursorNext();
 
         void display();
         std::string displayAsString();

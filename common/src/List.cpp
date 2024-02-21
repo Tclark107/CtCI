@@ -88,9 +88,13 @@ bool List::isEmpty()
     return false;
 }
 
-void List::peek()
+int List::peek()
 {
-    std::cout << "peek not implemented yet" <<  std::endl;
+    if(cursor != NULL)
+    {
+        return cursor->data;
+    }
+    return -1;
 }
 
 int List::removeEnd()
@@ -99,10 +103,31 @@ int List::removeEnd()
     return 0;
 }
 
-int List::removeElement(int butt)
+int List::removeElement(int index)
 {
-    std::cout << "removeElement not implemented yet" <<  std::endl;
-    return 0;
+    if(!isEmpty())
+    {
+        if(cursor != NULL)
+        {
+            //may need a previous here
+
+            //moveCursorFront()
+            //for(int i = 0, i < index-1; i++)
+            //{
+            //  moveCursorNext();
+            //  if i = index -2
+            //  cursor->next = cursor->next??
+            //}
+            //
+            //int topData = cursor->data;
+            //Node* temp = cursor;
+            //cursor = cursor->next;
+            //delete temp;
+            //return topData;
+            //
+        }
+    }
+    return -1;
 }
 
 void List::clear()
@@ -123,4 +148,24 @@ void List::clear()
         end = nullptr;
         cursor = nullptr;
     }
+}
+
+
+void List::moveCursorFront()
+{
+    cursor = head;
+}
+
+bool List::moveCursorNext()
+{
+    if(cursor != NULL)
+    {
+        if(cursor->next != NULL)
+        {
+            cursor = cursor->next;
+            return true;
+        }
+        return false;
+    }
+    return false;
 }
