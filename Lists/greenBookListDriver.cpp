@@ -18,23 +18,26 @@ void removeDupes(List list)
     //rmove element
     list.moveCursorFront();
     int element = list.peek();
+    int cursor = 1;
     itemsInList.insert(std::make_pair(element,element));
     while(list.moveCursorNext())
     {
         element = list.peek();
         if(itemsInList.find(element) != itemsInList.end())
         {
-            //not implemented yet
-            //itemsInList.removeCursor(element)
-            std::cout << "element repeated, delete " << list.peek() << std::endl;
+            std::cout << "element repeated, delete " << list.peek()<< std::endl;
+            list.removeElement(cursor);
+            list.display();
         }
         else
         {
             std::cout << "new element " << list.peek() << " add to map" << std::endl;
             itemsInList.insert(std::make_pair(element,element));
         }
+        cursor++;
     }
     std::cout << "end" << std::endl;
+    list.display();
 }
 
 void listDriver()
@@ -49,6 +52,7 @@ void listDriver()
     ListA.append(1);
     ListA.append(3);
     removeDupes(ListA);
+    ListA.display();
 
 
 }

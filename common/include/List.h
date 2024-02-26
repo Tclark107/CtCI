@@ -31,6 +31,7 @@ class List
         int removeHead();         
         int removeEnd();
         int removeElement(int index);
+        //int removeCursor(); needs to be double linked
         void clear();
 
         void moveCursorFront();

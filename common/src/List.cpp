@@ -54,10 +54,13 @@ void List::display()
 {
     std::cout << "Displaying the state of the List:" << std::endl;
     cursor = head;
+    int count = 0;
     while(cursor != nullptr)
     {
+        std::cout << "count = " << count <<std::endl;
         std::cout << cursor->data << " ";
         cursor = cursor->next;
+        count++;
     }
     std::cout << std::endl << std::endl;
 }
@@ -109,26 +112,59 @@ int List::removeElement(int index)
     {
         if(cursor != NULL)
         {
-            //may need a previous here
+            Node* prior;
+            moveCursorFront();
+            for(int i = 0; i < index; i++)
+            {
+              std::cout << "index = " << index << std::endl;
+              std::cout << "i = " << i<< std::endl;
+              moveCursorNext();
+              if(i == index - 1)
+              {
+                  prior = cursor;
+              }
+              std::cout << "cursorData = " << cursor->data << std::endl;
+            }
 
-            //moveCursorFront()
-            //for(int i = 0, i < index-1; i++)
-            //{
-            //  moveCursorNext();
-            //  if i = index -2
-            //  cursor->next = cursor->next??
-            //}
-            //
-            //int topData = cursor->data;
-            //Node* temp = cursor;
-            //cursor = cursor->next;
-            //delete temp;
-            //return topData;
-            //
+            int cursorData = cursor->data;
+            Node* temp = cursor;
+
+              std::cout << "after loop, cursorData = " << cursor->data << std::endl;
+              std::cout << "after loop, priorData = " << prior->data << std::endl;
+            std::cout << "TJC: are we here" << std::endl;
+            prior->next = temp->next;
+            cursor = temp->next;
+            std::cout << "TJC: did we crash yet" << std::endl;
+            temp->next = NULL;
+            std::cout << "TJC: crashed now?" << std::endl;
+
+            delete temp;
+            cursor = prior->next;
+            return cursorData;
         }
     }
     return -1;
 }
+
+/* needs to be doubly linked for this
+int List::removeCursor()
+{
+    if(!isEmpty())
+    {
+        if(cursor != NULL)
+        {
+
+        }
+        else
+        {
+            std::cout << "How the heck did you get here, call this if you " <<
+                "to delete what the cursor is on.  Your cursor" 
+                << "is undefined. " << std::endl;
+        }
+    }
+    return -1;
+}
+*/
 
 void List::clear()
 {
