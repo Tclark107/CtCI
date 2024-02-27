@@ -30,7 +30,7 @@ class List
         // returns -1 if the list is empty
         int removeHead();         
         int removeEnd();
-        int removeElement(int index);
+        void removeElement(int index);
         //int removeCursor(); needs to be double linked
         void clear();
 

@@ -52,16 +52,17 @@ int List::removeHead()
 
 void List::display()
 {
-    std::cout << "Displaying the state of the List:" << std::endl;
-    cursor = head;
-    int count = 0;
-    while(cursor != nullptr)
-    {
-        std::cout << "count = " << count <<std::endl;
-        std::cout << cursor->data << " ";
-        cursor = cursor->next;
-        count++;
-    }
+    while (head) {
+        if (head->next == NULL)
+            std::cout << "[" << head->data << "] "
+            << "[" << head << "]->"
+            << "(nil)" << std::endl;
+        else
+            std::cout << "[" << head->data << "] "
+            << "[" << head << "]->" << head->next
+            << std::endl;
+            head = head->next;
+            }
     std::cout << std::endl << std::endl;
 }
 
@@ -106,47 +107,44 @@ int List::removeEnd()
     return 0;
 }
 
-int List::removeElement(int index)
+void List::removeElement(int position)
 {
     if(!isEmpty())
     {
-        if(cursor != NULL)
+        Node* temp = head;
+        Node* prev = head;
+
+        for(int i = 0; i < position; i++)
         {
-            Node* prior;
-            moveCursorFront();
-            for(int i = 0; i < index; i++)
+            if(i == 0 && position == 1)
             {
-              std::cout << "index = " << index << std::endl;
-              std::cout << "i = " << i<< std::endl;
-              moveCursorNext();
-              if(i == index - 1)
-              {
-                  prior = cursor;
-              }
-              std::cout << "cursorData = " << cursor->data << std::endl;
+                head = head->next;
+                free(temp);
             }
-
-            int cursorData = cursor->data;
-            Node* temp = cursor;
-
-              std::cout << "after loop, cursorData = " << cursor->data << std::endl;
-              std::cout << "after loop, priorData = " << prior->data << std::endl;
-            std::cout << "TJC: are we here" << std::endl;
-            prior->next = temp->next;
-            cursor = temp->next;
-            std::cout << "TJC: did we crash yet" << std::endl;
-            temp->next = NULL;
-            std::cout << "TJC: crashed now?" << std::endl;
-
-            delete temp;
-            cursor = prior->next;
-            return cursorData;
+            else
+            {
+                if(i == position - 1 && temp)
+                {
+                    prev->next = temp->next;
+                    free(temp);
+                }
+                else
+                {
+                    prev = temp;
+                    if(prev == NULL)
+                    {
+                        std::cout << "position was greater than number of nodes in the list" << std::endl;
+                        break;
+                    }
+                    temp = temp->next;
+                }
+            }
         }
+
     }
-    return -1;
 }
 
-/* needs to be doubly linked for this
+/* 
 int List::removeCursor()
 {
     if(!isEmpty())
